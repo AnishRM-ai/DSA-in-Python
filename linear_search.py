@@ -5,10 +5,20 @@ if the card is not equal to the postion then increment it by 1 until it matches 
 if not found then return -1.
 
 """
+test_case0 = {
+    "input":{
+        "cards": [1,4,3,6,4,1,6],
+        "query": 3,
+        } ,
+    "output": 2,
+    
+}
+
+
 def find_card(query, cards):
     position = 0
     
-    while True:
+    while  cards[position] < len(cards):
         if cards[position]  == query:
             return position
         
@@ -19,6 +29,4 @@ def find_card(query, cards):
         
     
 
-query = 3
-cards = [1,5,2,7,3,9]
-print(find_card(query, cards))
+print(find_card(**test_case0['input']) == test_case0['output'])
