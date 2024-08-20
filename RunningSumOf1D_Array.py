@@ -12,7 +12,7 @@ Output: [3,4,6,16,17]
 def Solution(num):
     results = [0] * len(num)
     results[0] = num[0]
-    for i in range(0, len(num)):
+    for i in range(1, len(num)):
         results[i] = num[i] + results[i-1]
     return results
         
