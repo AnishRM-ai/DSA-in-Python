@@ -69,3 +69,4 @@ def mergeAlternately(word1, word2):
 word1 = "abcd"
 word2 = "pq"
 print(mergeAlternately(word1, word2))
+#Time Complexity: O(A+B)
