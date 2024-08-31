@@ -1,3 +1,3 @@
 # DSA-in-Python
-Daily DSA Python Problem Practice
-GeeksForGeeks DSA problem practice.
+DSA Python Problem Practice
+Leetcode DSA problem practice.
